@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 741,
+    "id" : "https://ballestrimg.github.io/IIIF-TNAH/images/ouali-mediale-serere/canvas/",
+    "label" : {
+      "none" : [ "ouali-mediale-serere" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://ballestrimg.github.io/IIIF-TNAH/images/ouali-mediale-serere/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://ballestrimg.github.io/IIIF-TNAH/images/ouali-mediale-serere/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 24,
+              "height" : 18
+            }, {
+              "width" : 47,
+              "height" : 36
+            }, {
+              "width" : 93,
+              "height" : 72
+            }, {
+              "width" : 186,
+              "height" : 144
+            }, {
+              "width" : 371,
+              "height" : 287
+            }, {
+              "width" : 741,
+              "height" : 573
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 741,
+            "@id" : "https://ballestrimg.github.io/IIIF-TNAH/images/ouali-mediale-serere",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 573
+          } ],
+          "format" : "image/jpeg",
+          "width" : 741,
+          "id" : "https://ballestrimg.github.io/IIIF-TNAH/images/ouali-mediale-serere/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 573
+        },
+        "target" : "https://ballestrimg.github.io/IIIF-TNAH/images/ouali-mediale-serere/canvas/"
+      } ]
+    } ],
+    "height" : 573
+  }, {
     "width" : 393,
     "id" : "https://ballestrimg.github.io/IIIF-TNAH/images/couteau/canvas/",
     "label" : {
